@@ -255,7 +255,7 @@ main {
     grid-template-areas: 'projects announcements'
                             'projects trending';
 
-    gap: 16px;    
+    gap: 35px;    
 
     background-color: #e2e8f0;
 }
@@ -266,7 +266,17 @@ main {
 
 .projects {
     grid-area: projects;
+}
 
+.announcements {
+    grid-area: announcements;
+}
+
+.trending {
+    grid-area: trending;
+}
+
+.projects {
     display: grid;
     grid-template-rows: auto 1fr;
     gap: 11px;
@@ -313,11 +323,34 @@ main {
 }
 
 .announcements {
-    grid-area: announcements;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 11px;
 }
 
-.trending {
-    grid-area: trending;
+.announcement-panel {
+    padding: 25px;
+
+    display: grid;
+    grid-template-rows: 1fr auto 1fr auto 1fr;
+    gap: 25px;
+
+    border-radius: 16px;
+}
+
+.announcement-item {
+    display: grid;
+    place-items: end start;
+}
+.announcement-item div:first-child {
+    font-weight: 800;
+}
+.announcement-item div:last-child {
+    font-size: 0.8rem;
+}
+
+.announcement-panel hr {
+    border: 1px solid #cbd5e1;
 }
 
 .content img {
