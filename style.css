@@ -246,6 +246,35 @@ aside img {
 }
 
 /* Main Styling */
+main {
+    padding: 25px;
+
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+    grid-template-areas: 'projects announcements'
+                            'projects trending';
+
+    gap: 16px;    
+
+    background-color: #e2e8f0;
+}
+
+.project-panel, .announcement-panel, .trending-panel {
+    background-color: white;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.announcements {
+    grid-area: announcements;
+}
+
+.trending {
+    grid-area: trending;
+}
+
 .content img {
     height: 1.5em;
     width: 1.5em;
