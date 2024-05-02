@@ -198,11 +198,48 @@ div.pfp {
 }
 
 /* Sidebar Styling */
+aside {
+    display: grid;
+    place-content: start;
+    gap: 40px;
+
+    font-size: 1.1rem;
+    font-weight: 800;
+
+    background-color: #0ea5e9;
+    color: white;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: center;
+
+    margin-left: 16px;
+    font-size: 1.8rem;
+}
+
+img {
+    height: 2em;
+    width: 2em;
+    filter: invert(100%);
+}
+
+.menu ul {
+    display: grid;
+    gap: 23px;
+
+    padding: 0;
+}
+
 .item {
     display: grid;
     grid-template-columns: auto 1fr;
-    place-items: center start;
+    align-items: center;
     gap: 16px;
     
     margin-left: 16px;
+
+    cursor: pointer;
 }
