@@ -347,10 +347,40 @@ main {
 }
 .announcement-item div:last-child {
     font-size: 0.8rem;
+    color: #6b7280;
 }
 
 .announcement-panel hr {
     border: 1px solid #cbd5e1;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 11px;
+}
+
+.trending-panel {
+    padding: 25px;
+
+    display: grid;
+    align-content: space-evenly;
+    gap: 16px;
+
+    border-radius: 16px;
+}
+
+.trending-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    place-items: center start;
+    gap: 16px;
+}
+.id-container div:first-child {
+    font-weight: 800;
+}
+.id-container div:last-child {
+    color: #6b7280;
 }
 
 .content img {
@@ -361,7 +391,7 @@ main {
 }
 
 .trending img {
-    height: 2em;
-    width: 2em;
+    height: 4em;
+    width: 4em;
     border-radius: 16px;
 }
