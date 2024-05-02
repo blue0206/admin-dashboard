@@ -209,6 +209,7 @@ aside {
     color: white;
 
     padding-top: 25px;
+    padding-left: 16px;
 }
 
 .dashboard {
@@ -302,7 +303,6 @@ main {
 }
 .content div:nth-child(even) {
     color: #6b7280;
-    word-spacing: 4px;
 }
 .configure {
     place-self: end;
