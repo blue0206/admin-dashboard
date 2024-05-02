@@ -268,13 +268,48 @@ main {
 
     display: grid;
     grid-template-rows: auto 1fr;
-    gap: 8px;
+    gap: 11px;
 }
 
 .project-panel {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
     gap: 32px;
+}
+
+.project-item {
+    display: grid;
+    grid-template-columns: 11px 1fr;
+
+    border-radius: 16px;
+}
+
+.sideline {
+    background-color: #f59e0b;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 32px;
+    gap: 11px;
+}
+.content div:first-child {
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+.content div:nth-child(even) {
+    color: #6b7280;
+    word-spacing: 4px;
+}
+.configure {
+    place-self: end;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
 }
 
 .announcements {
@@ -288,6 +323,8 @@ main {
 .content img {
     height: 1.5em;
     width: 1.5em;
+
+    cursor: pointer;
 }
 
 .trending img {
