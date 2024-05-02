@@ -259,12 +259,23 @@ main {
     background-color: #e2e8f0;
 }
 
-.project-panel, .announcement-panel, .trending-panel {
+.project-item, .announcement-panel, .trending-panel {
     background-color: white;
 }
 
 .projects {
     grid-area: projects;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 8px;
+}
+
+.project-panel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
+    place-content: stretch;
+    gap: 32px;
 }
 
 .announcements {
