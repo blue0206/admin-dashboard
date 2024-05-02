@@ -221,7 +221,7 @@ aside {
     font-size: 1.8rem;
 }
 
-img {
+aside img {
     height: 2em;
     width: 2em;
     filter: invert(100%);
@@ -243,4 +243,9 @@ img {
     margin-left: 16px;
 
     cursor: pointer;
+}
+
+.content img {
+    height: 1.5em;
+    width: 1.5em;
 }
