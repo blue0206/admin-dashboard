@@ -134,6 +134,7 @@ header {
 }
 .profile-id {
     grid-area: id;
+    text-wrap: nowrap;
 }
 
 .options {
