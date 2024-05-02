@@ -245,7 +245,14 @@ aside img {
     cursor: pointer;
 }
 
+/* Main Styling */
 .content img {
     height: 1.5em;
     width: 1.5em;
+}
+
+.trending img {
+    height: 2em;
+    width: 2em;
+    border-radius: 16px;
 }
