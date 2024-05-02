@@ -196,3 +196,13 @@ div.pfp {
     width: 2em;
     border-radius: 50%;
 }
+
+/* Sidebar Styling */
+.item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    place-items: center start;
+    gap: 16px;
+    
+    margin-left: 16px;
+}
