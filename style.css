@@ -200,7 +200,7 @@ div.pfp {
 aside {
     display: grid;
     place-content: start;
-    gap: 40px;
+    gap: 48px;
 
     font-size: 1.1rem;
     font-weight: 800;
@@ -229,7 +229,7 @@ img {
 
 .menu ul {
     display: grid;
-    gap: 23px;
+    gap: 16px;
 
     padding: 0;
 }
