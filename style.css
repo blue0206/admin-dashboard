@@ -18,7 +18,6 @@
 
 /* Reset overall margin and padding */
 * {
-    padding: 0px;
     margin: 0px;
 }
 
@@ -60,7 +59,7 @@ label, input, button {
 header {
     display: grid;
     gap: 32px;
-    padding: 25px 8px 5px 25px;
+    padding: 25px 8px 25px 25px;
 }
 
 .header-top {
@@ -208,8 +207,7 @@ aside {
     background-color: #0ea5e9;
     color: white;
 
-    padding-top: 25px;
-    padding-left: 16px;
+    padding: 25px 16px 0 16px;
 }
 
 .dashboard {
