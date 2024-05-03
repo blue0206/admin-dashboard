@@ -253,14 +253,14 @@ aside img {
 
 /* Main Styling */
 main {
-    padding: 25px;
+    padding: 35px;
 
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
     grid-template-areas: 'projects announcements'
                             'projects trending';
 
-    gap: 35px;    
+    gap: 48px;    
 
     background-color: #e2e8f0;
 }
