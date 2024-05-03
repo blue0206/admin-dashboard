@@ -107,6 +107,8 @@ header {
 .profile-name {
     justify-self: center;
     font-weight: 800;
+
+    cursor: pointer;
 }
 
 .header-bottom {
@@ -317,6 +319,8 @@ main {
 .content div:first-child {
     font-weight: 800;
     font-size: 1.25rem;
+
+    cursor: pointer;
 }
 .content div:nth-child(even) {
     color: #6b7280;
@@ -352,6 +356,8 @@ main {
 .announcement-item {
     display: grid;
     place-items: end start;
+
+    cursor: pointer;
 }
 .announcement-item div:first-child {
     font-weight: 800;
@@ -390,6 +396,8 @@ main {
     grid-template-columns: auto 1fr;
     place-items: center start;
     gap: 16px;
+
+    cursor: pointer;
 }
 .id-container div:first-child {
     font-weight: 800;
